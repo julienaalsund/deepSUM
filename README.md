@@ -75,3 +75,4 @@ During training, only the best 9 images for each imageset are considered for the
 
 DeepSUM is based on work by team *SuperPip* from the [Image Processing and Learning](https://ipl.polito.it/) group of Politecnico di Torino: Andrea Bordone Molini (andrea.bordone AT polito.it), Diego Valsesia (diego.valsesia AT polito.it), Giulia Fracastoro (giulia.fracastoro AT polito.it), Enrico Magli (enrico.magli AT polito.it).
 
+# deepSUM

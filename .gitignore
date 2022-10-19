@@ -1,0 +1,12 @@
+dataset_creation/dataset/
+dataset_creation/dataset_light_best9/
+dataset_creation/pickles/
+dataset_creation/probav_data
+dataset_creation/testset/
+dataset_creation/.ipynb_checkpoints/
+
+.ipynb_checkpoints/
+
+DeepSUM/.ipynb_checkpoints/
+DeepSUM/checkpoints/
+DeepSUM/pretraining_checkpoints/

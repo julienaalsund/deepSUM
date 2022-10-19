@@ -6,7 +6,7 @@
     "others":{
         "skip_step": 1000,
         "base_dir":"",
-        "dataset_path":"./dataset_creation/dataset_light_best9/",
+        "dataset_path":"../dataset_creation/dataset_light_best9/",
         "n_chunks":5,
         "channels":1,
         "T_in":9,
@@ -15,9 +15,9 @@
         "patch_size_HR":[96,96],
         "patch_size_LR":[32,32],
         "border":3,
-        "spectral_band":"NIR",
-        "RegNet_pretrain_dir":"./pretraining_checkpoints/RegNet/RegNet_96x96patches_64filters_RESIDUAL_NOBATCHNORM_artificial_shifts_feature_space_NIR_lr_0.001_bsize_16",
-        "SISRNet_pretrain_dir":"./pretraining_checkpoints/SISRNet/SISRNet_RESIDUAL_64filters_NIR_lr_5e-05_bsize_16",
+        "spectral_band":"RED",
+        "RegNet_pretrain_dir":"./pretraining_checkpoints/RegNet/RegNet_96x96patches_64filters_RESIDUAL_NOBATCHNORM_artificial_shifts_feature_space_RED_lr_0.001_bsize_16",
+        "SISRNet_pretrain_dir":"./pretraining_checkpoints/SISRNet/SISRNet_RESIDUAL_64filters_RED_lr_5e-05_bsize_16",
         "mu":7754.664,
         "sigma":2316.3408,
         "sigma_rescaled":596.982

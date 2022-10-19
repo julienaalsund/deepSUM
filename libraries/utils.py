@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior() 
 import h5py
 from PIL import Image
 import os
@@ -255,7 +256,7 @@ def upsampling_without_aggregation_all_imageset(batch_training_to_up,scale=3):
 
 
 #he_normal_init = tf.contrib.layers.variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False,seed=12345)
-he_normal_init =tf.contrib.layers.xavier_initializer(uniform=False,seed=1234)
+he_normal_init =tf.keras.initializers.glorot_normal(seed=1234)
 
 def BatchNorm(input, is_train, decay=0.999, name='BatchNorm'):
     '''

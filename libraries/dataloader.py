@@ -305,8 +305,7 @@ def load_dataset_best9(path,n_chuncks,band='NIR'):
     '''
     
     '''
-    
-    
+
     batch_validation=np.load(path+'dataset_{0}_LR_valid_best9.npy'.format(band),allow_pickle=True)
     batch_validation_y=np.load(path+'dataset_{0}_HR_valid_best9.npy'.format(band),allow_pickle=True)
     batch_validation_mask=np.load(path+'dataset_{0}_mask_LR_valid_best9.npy'.format(band),allow_pickle=True)
